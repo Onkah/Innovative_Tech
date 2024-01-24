@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>about</title>
+</head>
+<body>
+
+  <section class="header">
+    <nav>
+      <a href="index.html."><img src="../images/logo.png"></a>
+      <p style="color: #fff; 
+      font-weight: 600;
+       margin-right: 50px;
+       text-transform: uppercase;          
+       text-shadow: 2px 2px 5px #666;     
+       transform: rotateX(10deg);"> Humble-Uni Academy</p>
+      <!-- Hamburger menu button -->
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>  
+      <!-- Display the close button (the "X" icon) initially as hidden -->
+      <div class="close-btn">
+        <div class="close-line"></div>
+        <div class="close-line"></div>
+      </div> 
+      <div class="nav-links">
+           <ul>
+                <li><a href="../index.html"><i class="fas fa-home"></i>HOME</a></li>
+                <li><a href="about-us.html"><i class="fas fa-info-circle"></i>ABOUT US</a></li>
+                <li><a href="courses.html"><i class="fas fa-book"></i>COURSES</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>CONTACT US</a></li>
+                <li><a href="safeDriving.html"><i class="fas fa-shield"></i>SAFE DRIVING</a></li>
+                <li><a href="FAQs.html" style="font-size: 15px;"><i class="fa fa-question-circle"></i>FAQs</a></li>
+
+           </ul>
+      </div>
+ </nav>
+<!-- contact us form-->
+
+
+
+      <div class="block">
+        <div class ="ContactUs">
+           
+          <div class="text"><h1>CONTACT US</h1></div>
+
+          <!--<div class="form">
+          <form action="" method="POST"  onsubmit="return validateForm()">
+            <label for="fname">First name: </label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="mail">Email Address:</label><br>
+            <input type="text" id ="mail" name="mail" required><br><br>
+            <label for="msg">Message:</label><br>
+            <textarea type="text" id="msg" name="msg" placeholder="write message"></textarea><br><br>
+            <input type="Submit" class="hero-btn" value ="Send">
+            
+          </form>
+        -->
+
+        <form id="myForm" action="thank-you-page.html"  method="POST" onsubmit="return validateForm()">
+          <label for="fname">First name: </label><br>
+          <input type="text" id="fname" name="fname" placeholder="First Name"  ><br>
+          <span id="firstNameError" class="error"></span><br>
+
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" placeholder="Last Name" ><br>
+          <span id="lastNameError" class="error"></span><br>
+
+          <label for="mail">Email Address:</label><br>
+          <input type="text" id ="mail" name="mail" placeholder="12345@emial.com" ><br><br>
+          <span id="emailError" class="error"></span><br>
+
+          <label for="msg">Message:</label><br>
+          <textarea type="text" id="msg" name="msg" placeholder="write message"></textarea><br><br>
+          <span id="messageError" class="error"></span><br>
+
+          <input type="Submit" class="hero-btn" value ="Send">
+          
+        </form>
+
+          </div>
+       </div> 
+     </div>
+  </section>
+  <iframe   width="100%"   height="300"   frameborder="0"   scrolling="no"   marginheight="0"   marginwidth="0"   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14508.905986577697!2d27.92889!3d-26.0185299!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDIwJzQwLjIiUyAyN8KwMzUnMjkuMyJF!5e0!3m2!1sen!2s!4v1634316514055!5m2!1sen!2s" > </iframe>
+
+   <!-- Our Chatbot-->
+   <div class="chat-bot-container" border-radius: 50px; padding: 20px;>      
+   </div>
+
+
+
+   <hr>
+   <footer>
+    <div class="footer-head">
+      <h3>Humble-Uni Driving Academy</h3>
+    </div>
+    <div class="socials">
+      <ul>
+        <li><a href="https://www.facebook.com/www.humbleuniprojects.co.za/photos"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </div>
+ 
+    <div class="footer-mid">
+     <p><i class="fas fa-map-marker-alt"> </i> Address: <a href="https://www.google.com/maps/dir/-25.9542039,28.1239714/-26.0185299,27.92889/@-25.9678372,27.8601792,11z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu">126-134 Angola Ave, Cosmo City, Roodepoort, 2188</a></p>
+      <p><i class="fas fa-phone"></i> Call us: 081 366 3052</p>
+     
+      <p>©Copyright 2023 Humble-Uni Driving Academy.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+
+</body>
+</html>
